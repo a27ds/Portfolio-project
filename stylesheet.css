@@ -1,0 +1,134 @@
+.top-buffer {
+    margin-top: 7rem;
+}
+
+.bottom-buffer {
+    margin-bottom: 6rem;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    background-color: #f3f3f3;
+    align-items: center;
+    text-align: center;
+    color: #646464
+}
+
+header {
+    background-color: #f3f3f3;
+}
+
+h1 {
+    font-weight: 200;
+}
+h6 {
+    font-weight: 200;
+}
+
+nav {
+    padding-bottom: 1rem;
+    justify-content: space-around;
+}
+
+footer {
+    padding-top: 1rem;
+    text-align: center;
+    color: #f3f3f3;
+    background-color: #d43232;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+}
+
+a {
+    text-decoration: none !important;
+    color: #646464;
+    transition: color 300ms;
+}
+.link-in-page {
+    text-decoration: none !important;
+    color: #d43232;
+    
+}
+
+nav>a {
+    letter-spacing: 0.08rem;
+}
+
+a:hover {
+    color: #d43232;
+}
+.selected-page {
+    color: #d43232;
+}
+.max-img-width {
+    max-width: 8rem ;
+}
+
+/* Blinkande text */
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+}
+
+
+/* infadning av sidan */
+
+.fade-in {
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
